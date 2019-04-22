@@ -1,0 +1,30 @@
+{
+  "name": "render-exceljs",
+  "author": {
+    "name": "Guillem Palomar"
+  },
+  "keywords": ["excel", "render", "preview", "exceljs"],
+  "license": "MIT",
+  "version": "1.0.0",
+  "description": "Renders excel files using excelJS",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gpalomar/render-exceljs"
+  },
+  "main": "index.js",
+  "scripts": {
+    "build": "yarn rollup -c",
+    "watch": "yarn rollup -c -w"
+  },
+  "files": [
+    "/index.js",
+    "/theme.css"
+  ],
+  "devDependencies": {
+    "rollup": "^1.3.0",
+    "rollup-plugin-node-resolve": "^4.2.3"
+  },
+  "dependencies": {
+    "exceljs": "^1.9.1"
+  }
+}
